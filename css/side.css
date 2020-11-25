@@ -1,0 +1,23 @@
+.side{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.side-nav, .info{
+    padding: 10px;
+}
+.side-item  span, .info span{
+    display: block;
+    text-align: center;
+}
+.side-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2vh;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 10vh;
+}

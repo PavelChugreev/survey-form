@@ -1,0 +1,43 @@
+.container{
+    margin: 0 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    margin: 10px;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header input{
+    width: 50vw;
+    height: 6vh;
+    margin-right: 5vw;
+}
+.sub, .nav-bar{
+    margin-top: 5vh;
+}
+.user{
+    height: 50%;
+    display: flex;
+}
+.user img{
+    width: 5vw;
+    height: 5vw;
+}
+.user span {
+    display: block;
+}
+.user-name{
+    padding: 5px;
+}
+.nav-bar{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item{
+    padding: 10px;
+}
