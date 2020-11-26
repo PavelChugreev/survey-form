@@ -19,11 +19,11 @@
 .inputs{
     width: 70%;
 }
-.condition span, .range .range-title{
+.condition span, .range .range-title, .range .type-title, .range .status-title {
     align-self: center;
     width: 30%;
 }
-.range-title span{
+.range-title span, .type-title span, .status-title span{
     align-self: center;
 }
 .inputs input{
