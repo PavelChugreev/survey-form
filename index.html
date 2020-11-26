@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/side.css">
+    <link rel="stylesheet" href="./css/form.css">
     <title>Survey</title>
 </head>
 <body>
@@ -60,6 +61,158 @@
                 <div class="nav-item">Логика</div>
                 <div class="nav-item">Условия</div>
                 <div class="nav-item">Респонденты</div>
+            </div>
+            <div class="form">
+                <div class="title">Добавить опрос</div>
+                <div class="form-item">
+                    <div class="condition">
+                        <span>Условие 1</span>
+                        <select name="condition" id="condition">
+                            <option value="choose">Выберете условие</option>
+                            <option value="age">Возраст респондента</option>
+                            <option value="type">Тип карты лояльности</option>
+                            <option value="status">Статус карты лояльности</option>
+                        </select>
+                    </div>
+                    <div class="range-wrapper">
+                        <div class="range">
+                            <div class="range-title">
+                                <span>Диапазон 1</span>
+                            </div>
+                            <div class="inputs">от
+                                <input type="number" name="" id="">
+                                до
+                                <input type="number" name="" id="">
+                            </div>
+                        </div>
+                        <div class="range">
+                            <div class="range-title">
+                                <div class="or">или</div>
+                                <span>Диапазон 2</span>
+                            </div>
+                            <div class="inputs">от
+                                <input type="number" name="" id="">
+                                до
+                                <input type="number" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-buttons">
+                        <div class="add-btn">
+                            <button><i class="fas fa-plus"></i>  Добавить диапазон</button>
+                        </div>
+                        <div class="del-btn">
+                            <button><i class="fas fa-trash-alt"></i>  Удалить условие</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <div class="condition">
+                        <span>Условие 2</span>
+                        <select name="condition" id="condition">
+                            <option value="choose">Выберете условие</option>
+                            <option value="age">Возраст респондента</option>
+                            <option value="type">Тип карты лояльности</option>
+                            <option value="status">Статус карты лояльности</option>
+                        </select>
+                    </div>
+                    <div class="range-wrapper">
+                        <div class="range">
+                            <div class="range-title">
+                                <span>Тип 1</span>
+                            </div>
+                            <div class="inputs">
+                                <select name="type" id="type">
+                                    <option value="standert">Standart</option>
+                                    <option value="silver">Silver</option>
+                                    <option value="gold">Gold</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="range">
+                            <div class="range-title">
+                                <div class="or">или</div>
+                                <span>Тип 2</span>
+                            </div>
+                            <div class="inputs">
+                                <select name="type" id="type">
+                                    <option value="standert">Standart</option>
+                                    <option value="silver">Silver</option>
+                                    <option value="gold">Gold</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-buttons">
+                        <div class="add-btn">
+                            <button><i class="fas fa-plus"></i>  Добавить тип</button>
+                        </div>
+                        <div class="del-btn">
+                            <button><i class="fas fa-trash-alt"></i>  Удалить условие</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <div class="condition">
+                        <span>Условие 3</span>
+                        <select name="condition" id="condition">
+                            <option value="choose">Выберете условие</option>
+                            <option value="age">Возраст респондента</option>
+                            <option value="type">Тип карты лояльности</option>
+                            <option value="status">Статус карты лояльности</option>
+                        </select>
+                    </div>
+                    <div class="range-wrapper">
+                        <div class="range">
+                            <div class="range-title">
+                                <span>Статус 1</span>
+                            </div>
+                            <div class="inputs">
+                                <select name="status" id="status">
+                                    <option value="standert">Активна</option>
+                                    <option value="silver">Неактивна</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="range">
+                            <div class="range-title">
+                                <div class="or">или</div>
+                                <span>Статус 2</span>
+                            </div>
+                            <div class="inputs">
+                                <select name="status" id="status">
+                                    <option value="standert">Активна</option>
+                                    <option value="silver">Неактивна</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-buttons">
+                        <div class="add-btn">
+                            <button><i class="fas fa-plus"></i>  Добавить статус</button>
+                        </div>
+                        <div class="del-btn">
+                            <button><i class="fas fa-trash-alt"></i>  Удалить условие</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="add-condition">
+                <div class="push">
+                    <div class="plus"><i class="fas fa-plus"></i></div>
+                    <div class="text">
+                        <span>Нажмите чтобы добавить новое условие выборки</span>
+                        <span>Все условия связываются между собой логическим "И"</span>
+                    </div>
+                </div>
+            </div>
+            <div class="test">
+                <div class="test-btn">
+                    <button>Протестировать опрос</button>
+                </div>
+                <div class="next-btn">
+                    <button>Далее <i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
             </div>
         </div>
     </div>

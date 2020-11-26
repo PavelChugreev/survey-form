@@ -1,0 +1,72 @@
+.form .title{
+    font-size: 25px;
+}
+.form-item{
+    margin-top: 5vh;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid black;
+}
+.condition, .range, .item-buttons{
+    display: flex;
+    margin-top: 5vh;
+}
+.condition select, .inputs input, .inputs select{
+    width: 70%;
+    height: 6vh;
+    border-radius: 7px;
+    outline: none;
+}
+.inputs{
+    width: 70%;
+}
+.condition span, .range .range-title{
+    align-self: center;
+    width: 30%;
+}
+.range-title span{
+    align-self: center;
+}
+.inputs input{
+    width: 30%;
+    height: 5vh;
+}
+.or{
+    display: inline;
+    margin-right: 7px;
+    padding: 5px;
+}
+
+.add-btn, .test-btn{
+    text-align: center;
+    width: 70%;
+}
+.del-btn, .next-btn{
+    width: 30%;
+    text-align: end;
+}
+.item-buttons button, .test button{
+    border-radius: 5px;
+    height: 5vh;
+}
+
+.add-condition{
+    margin: 3vh 1vw;
+}
+.push{
+    padding: 3vh;
+    border: 1px solid black;
+    border-radius: 7px
+}
+.push:hover, button:hover, .nav-item:hover, .side-item:hover{
+    cursor: pointer;
+}
+.plus, .text span{
+    text-align: center;
+    display: block;
+}
+
+.test{
+    display: flex;
+    padding: 5vh 1vh;
+    background-color: rgb(234, 250, 255);
+}
