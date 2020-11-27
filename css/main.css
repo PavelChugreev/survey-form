@@ -2,49 +2,24 @@
     display: none;
 }
 .container{
-    margin: 0 9vw;
-    display: flex;
-    justify-content: space-between;
+    /* margin: 0 9vw; */
+    /* margin: 0 10%; */
 }
 .main{
+    width: 100%;
     margin: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgb(218, 218, 218);
 }
-header ,.nav-bar, .nav-item, .form{
+.nav-item{
     padding: 10px;
 }
-.header{
+.header, .container{
     display: flex;
     justify-content: space-between;
 }
-.header input{
-    width: 50vw;
-    height: 6vh;
-    margin-right: 5vw;
+input, select{
+    border:2px solid rgb(218, 218, 218);
 }
-.search-field, .user{
-    padding: 2vh;
-}
-.sub, .nav-bar{
-    margin-top: 5vh;
-}
-.user{
-    height: 50%;
-    display: flex;
-}
-.user img{
-    width: 5vw;
-    height: 5vw;
-    border-radius: 25px;
-}
-.user span {
-    display: block;
-}
-.user-name{
-    padding: 5px;
-}
-.nav-bar{
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: space-around;
+input:focus, select:focus{
+    border:2px solid rgb(221, 255, 170);
 }

@@ -1,0 +1,50 @@
+.add-btn, .test-btn{
+    text-align: center;
+    width: 70%;
+}
+.del-btn, .next-btn{
+    width: 30%;
+    text-align: end;
+}
+.item-buttons button, .test button{
+    border-radius: 5px;
+    height: 5vh;
+}
+.add-btn button{
+    color: rgb(147, 211, 52);
+    border:2px solid rgb(221, 255, 170);
+    font-weight: bold;
+}
+.del-btn button{
+    color: rgb(211, 52, 52);
+    border:2px solid rgb(243, 160, 160);
+    font-weight: bold;
+}
+.del-btn button:active{
+    border:2px solid  rgb(211, 52, 52);
+}
+.add-btn button:active{
+    border:2px solid rgb(147, 211, 52);
+}
+button:focus{
+    outline: none;
+}
+.test-btn button{
+    border:none;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: rgb(46, 168, 30);
+    font-weight: bold;
+}
+.test-btn button:active, .next-btn button:active{
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+.next-btn{
+    padding-right: 5px;
+}
+.next-btn button{
+    background-color:  rgb(46, 168, 30);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+}

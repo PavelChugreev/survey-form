@@ -1,15 +1,18 @@
 .form .title{
-    font-size: 25px;
+    font-size: 20px;
+    color: #99968f;
+    font-weight: bold;
+    padding: 1vw 2vw;
 }
 .form-item{
-    margin-top: 5vh;
-    padding-bottom: 2vh;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #bfd84f;
+    background-color:#fff8f1;
 }
 .condition, .range, .item-buttons{
     display: flex;
-    margin-top: 5vh;
+    padding: 2vw;
 }
+
 .condition select, .inputs input, .inputs select{
     width: 70%;
     height: 6vh;
@@ -22,9 +25,16 @@
 .condition span, .range .range-title, .range .type-title, .range .status-title {
     align-self: center;
     width: 30%;
+    color: rgb(46, 168, 30);
+    font-size: 20px;
+    font-weight: bold;
 }
 .range-title span, .type-title span, .status-title span{
     align-self: center;
+    width: 30%;
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
 }
 .inputs input{
     width: 30%;
@@ -34,39 +44,4 @@
     display: inline;
     margin-right: 7px;
     padding: 5px;
-}
-
-.add-btn, .test-btn{
-    text-align: center;
-    width: 70%;
-}
-.del-btn, .next-btn{
-    width: 30%;
-    text-align: end;
-}
-.item-buttons button, .test button{
-    border-radius: 5px;
-    height: 5vh;
-}
-
-.add-condition{
-    margin: 3vh 1vw;
-}
-.push{
-    padding: 3vh;
-    border: 1px solid black;
-    border-radius: 7px
-}
-.push:hover, button:hover, .nav-item:hover, .side-item:hover{
-    cursor: pointer;
-}
-.plus, .text span{
-    text-align: center;
-    display: block;
-}
-
-.test{
-    display: flex;
-    padding: 5vh 1vh;
-    background-color: rgb(234, 250, 255);
 }

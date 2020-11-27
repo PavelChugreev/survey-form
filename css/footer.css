@@ -1,0 +1,26 @@
+.add-condition{
+    margin: 3vh 1vw;
+}
+.push{
+    padding: 3vh;
+    border: 2px solid rgb(159, 253, 159);
+    border-radius: 7px
+}
+.push:active{
+    border: 2px solid rgb(77, 255, 77);
+
+}
+.push:hover, button:hover, .nav-item:hover, .side-item:hover{
+    cursor: pointer;
+}
+.plus, .text span{
+    text-align: center;
+    display: block;
+    color: rgb(46, 168, 30);
+}
+
+.test{
+    display: flex;
+    padding: 5vh 1vh;
+    background-color: #f4f8f9;
+}

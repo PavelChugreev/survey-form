@@ -1,9 +1,10 @@
 .side{
+    max-width: 30%;
     margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-right: 1px solid black;
+    border-right: 2px solid rgb(233, 233, 233);
 }
 .side-nav, .info{
     padding: 10px;
@@ -11,14 +12,26 @@
 .side-item  span, .info span{
     display: block;
     text-align: center;
+    padding: 3px;
 }
 .side-item{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 2vh;
-    padding: 5px;
-    border: 1px solid black;
+    padding: 15px 5px;
+}
+.side-item:hover{
+    border: 2px solid #bfd84f;
     border-radius: 5px;
-    height: 10vh;
+    color: #bfd84f;
+}
+.side-item:active{
+    background-color: rgb(219, 219, 219);
+    color: #000;
+    border: none;
+}
+.side-item i{
+    transform: scale(1.5);
+    
 }
