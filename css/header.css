@@ -3,27 +3,34 @@
     height: 6vh;
     margin-right: 5vw;
 }
+
 .search-field, .user{
     padding: 2vh;
 }
+
 .sub, .nav-bar{
     margin-top: 5vh;
 }
+
 .user{
     height: 50%;
     display: flex;
 }
+
 .user img{
     width: 5vw;
     height: 5vw;
     border-radius: 25px;
 }
+
 .user span {
     display: block;
 }
+
 .user-name{
     padding: 5px;
 }
+
 .nav-bar{
     border-bottom: 1px solid #bfd84f;
     display: flex;
@@ -32,6 +39,7 @@
     font-weight: bold;
     padding: 10px 10px 0 10px;
 }
+
 .nav-bar .nav-item:hover{
     border-bottom: 2px solid #bfd84f;
     color: #000;

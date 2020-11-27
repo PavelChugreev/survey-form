@@ -1,0 +1,44 @@
+{
+  "response": [],
+  "requests": [
+    {
+      "formItem-1": {
+        "from-1": "12",
+        "from-2": "18",
+        "to-1": "18",
+        "to-2": "35"
+      },
+      "formItem-2": {
+        "type-1": "standart",
+        "type-2": "silver",
+        "type-3": "gold"
+      },
+      "formItem-3": {
+        "status-1": "activ",
+        "status-2": "no-active"
+      },
+      "id": 1
+    },
+    {
+      "formItem-1": {
+        "from-1": "50",
+        "from-2": "18",
+        "from-3": "30",
+        "to-1": "65",
+        "to-2": "30",
+        "to-3": "50"
+      },
+      "formItem-2": {
+        "status-1": "activ",
+        "status-2": "no-active",
+        "status-3": "activ"
+      },
+      "formItem-3": {
+        "type-1": "gold",
+        "type-2": "silver",
+        "type-3": "silver"
+      },
+      "id": 2
+    }
+  ]
+}

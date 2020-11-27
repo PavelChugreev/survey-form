@@ -1,3 +1,4 @@
+//before posting init json-server (data-base.json) 
 export default function post() {
     let data = {};
 

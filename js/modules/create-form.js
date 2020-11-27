@@ -10,7 +10,7 @@ export default function createForm() {
                         <option value="silver">Silver</option>
                         <option value="gold">Gold</option>
                     </select>   `;
-    const status1 = `  <select name="status" id="status">
+    const activStatus = `  <select name="status" id="status">
                         <option value="activ">Активна</option>
                         <option value="no-active">Неактивна</option>
                     </select>   `;
@@ -134,7 +134,7 @@ export default function createForm() {
                 new Range(rangeNum, 'Тип', type).render();
             }
             function createStatus() {
-                new Range(rangeNum, 'Статус', status1).render();
+                new Range(rangeNum, 'Статус', activStatus).render();
             }
         }
     }
