@@ -27,7 +27,8 @@ export default function createForm() {
             formItem.setAttribute("id", this.num + 1);
             formItem.classList.add("form-item");
             formItem.innerHTML =
-                `                    
+                `
+            <div class="and">И</div>
             <div class="condition">
                 <span>Условие ${this.num + 1}</span>
                 <select name="condition" id="condition">
@@ -51,6 +52,15 @@ export default function createForm() {
             form.append(formItem);
             itemsNum++;
 
+            function changeAnd(){
+                let formItems = document.querySelectorAll(".form-item");
+                formItems.forEach(item => {
+                    const id = item.getAttribute("id");
+                    if(id == 1) item.querySelector(".and").style.display = "none";
+                });
+            }
+            changeAnd();
+
             const addBtn = formItem.querySelector(".add-btn");
             const delBtn = formItem.querySelector(".del-btn");
             const select = formItem.querySelector('select');
@@ -60,6 +70,7 @@ export default function createForm() {
                 itemsNum--;
                 rangeNum = 0;
                 setNum(".form-item", ".condition span");
+                changeAnd();
             });
 
             select.addEventListener("change", () => {
@@ -109,7 +120,7 @@ export default function createForm() {
                         range.innerHTML =
                             `   
                         <div class="range-title">
-                            <span>или ${this.condition} ${this.rangeNum + 1}</span>
+                            <span><span class="or">или</span> ${this.condition} ${this.rangeNum + 1}</span>
                         </div>
                         <div class="inputs">${this.inner}</div>
                     `;

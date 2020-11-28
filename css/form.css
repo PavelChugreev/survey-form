@@ -6,8 +6,9 @@
 }
 
 .form-item{
-    border-bottom: 1px solid #bfd84f;
+    border-bottom: 2px solid  rgb(233, 233, 233);
     background-color:#fff8f1;
+    position: relative;
 }
 
 .condition, .range, .item-buttons{
@@ -17,7 +18,7 @@
 
 .condition select, .inputs input, .inputs select{
     width: 70%;
-    height: 6vh;
+    height: 40px;
     border-radius: 7px;
     outline: none;
 }
@@ -44,11 +45,23 @@
 
 .inputs input{
     width: 30%;
-    height: 5vh;
+    height: 30px;
 }
 
 .or{
     display: inline;
     margin-right: 7px;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #ece1d4;
+}
+
+.and{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: #ece1d4;
+    position: absolute;
+    left: 20px;
+    top: -17px;
 }

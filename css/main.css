@@ -5,9 +5,13 @@ body{
 .hide{
     display: none;
 }
+.container{
+    margin: 0 auto;
+    width: 60%;
+}
 
 .main{
-    width: 100%;
+    min-width: 70%;
     margin: 10px;
     box-shadow: 0 0 10px rgb(218, 218, 218);
 }
@@ -18,7 +22,7 @@ body{
 
 .header, .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 input, select{
