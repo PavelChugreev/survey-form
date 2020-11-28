@@ -7,7 +7,7 @@
 
 .form-item{
     border-bottom: 2px solid  rgb(233, 233, 233);
-    background-color:#fff8f1;
+    /* background-color:#fff8f1; */
     position: relative;
 }
 
@@ -53,14 +53,14 @@
     margin-right: 7px;
     padding: 10px;
     border-radius: 7px;
-    background-color: #ece1d4;
+    background-color: #f9e7ff;
 }
 
 .and{
     display: inline-block;
     padding: 10px 15px;
     border-radius: 7px;
-    background-color: #ece1d4;
+    background-color: #eeffe7;
     position: absolute;
     left: 20px;
     top: -17px;

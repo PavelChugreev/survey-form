@@ -52,14 +52,24 @@ export default function createForm() {
             form.append(formItem);
             itemsNum++;
 
-            function changeAnd(){
-                let formItems = document.querySelectorAll(".form-item");
-                formItems.forEach(item => {
+            function changeDecoration(){
+                const formItems = document.querySelectorAll(".form-item");
+                formItems.forEach((item, i) => {
                     const id = item.getAttribute("id");
-                    if(id == 1) item.querySelector(".and").style.display = "none";
+                    if(id == 1){
+                        item.querySelector(".and").style.display = "none";
+                    } 
+
+                    if(id%2){
+                        item.classList.remove("blue");
+                        item.classList.add("pink");
+                    } else {
+                        item.classList.remove("pink");
+                        item.classList.add("blue");
+                    }
                 });
             }
-            changeAnd();
+            changeDecoration();
 
             const addBtn = formItem.querySelector(".add-btn");
             const delBtn = formItem.querySelector(".del-btn");
@@ -70,7 +80,7 @@ export default function createForm() {
                 itemsNum--;
                 rangeNum = 0;
                 setNum(".form-item", ".condition span");
-                changeAnd();
+                changeDecoration();
             });
 
             select.addEventListener("change", () => {
