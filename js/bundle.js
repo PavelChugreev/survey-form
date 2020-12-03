@@ -63,7 +63,7 @@ function createForm() {
                     <button class="hide"></button>
                 </div>
                 <div class="del-btn">
-                    <button><i class="fas fa-trash-alt"></i>  Удалить условие</button>
+                <i class="fas fa-trash-alt"></i> <span>Удалить условие</span> 
                 </div>
             </div>
         `;

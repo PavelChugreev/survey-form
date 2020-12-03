@@ -4,7 +4,7 @@
 }
 
 .del-btn, .next-btn{
-    width: 30%;
+    width: 35%;
     text-align: end;
 }
 
@@ -19,13 +19,17 @@
     font-weight: bold;
 }
 
-.del-btn button{
+.del-btn {
+    text-align: center;
+    padding: 7px 0;
     color: rgb(211, 52, 52);
     border:2px solid rgb(243, 160, 160);
+    border-radius: 7px;
     font-weight: bold;
+    cursor: pointer;
 }
 
-.del-btn button:active{
+.del-btn:active{
     border:2px solid  rgb(211, 52, 52);
 }
 
